@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+/* Universal Selecror */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "lato", serif;
+    background-color: #f4f4f4;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(#bdc3c7, #2c3e50)
+}
+
+.main h1 {
+    font-size: 3rem;
+    color: #ecf0d1;
+}
+
+.main p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #2c3e50;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #bdc3c7;
+    color: #2c3e50;
+}
+
+.btn a {
+    text-decoration: none;
+     color: #ecf0d1;
+}
+
+.gallery {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: 50px 0;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    transition: 0.5s;
+}
+
+.slide img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.prev, 
+.next {
+    position: absolute;
+    top: 50%;
+    transform: #2c3ec7;
+    background: rgba(0, 0, 0, 0.5);
+    color: #bdc3c7;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
