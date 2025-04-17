@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Dev Tours & Travels Solution</title>
+</head>
+
+<body>
+  <!-- Form-->
+  <div class="header">
+    <h1 style="text-align: center; background-color: #2ecc71; padding: 5px;"> Responsive Check out Form</h4>
+      <h2 style="text-align: center; background-color: #3498db; padding: 5px;">Let's go together</h6>
+  </div>
+  <div class="container">
+    <div class="section-1" style="background-color: #dfe6e9; width: 30%">
+      <h3 style="background-color: #74b9ff; padding: 5px; margin: 5px; text-align: center;"> Personal Details</h6>
+        <form action="#">
+          <div style="padding: 5px; margin: 5px;">
+            <label for="name"> Full Name</label><br>
+            <input type="text" placeholder="Enter Your Name" required>
+          </div>
+          <div style="padding: 5px; margin: 5px;">
+            <label for="email"> Email</label><br>
+            <input type="text" placeholder="Enter Email" required>
+          </div>
+          <div style="padding: 5px; margin: 5px;">
+            <label for="address"> Address</label><br>
+            <input type="text" placeholder="Enter Address" required>
+          </div>
+          <div style="padding: 5px; margin: 5px;">
+            <label for="city"> City</label><br>
+            <input type="text" placeholder="Enter City" required>
+          </div>
+          <div style="display: flex;">
+            <div style="padding: 5px; margin: 5px">
+              <label for="sate"> State</label><br>
+              <input type="text" placeholder="Enter State" required>
+            </div>
+            <div style="padding: 5px; margin: 5px;">
+              <label for="zip"> Zip</label><br>
+              <input type="text" placeholder="Enter Zip" required>
+            </div>
+          </div>
+        </form>
+    </div>
+    <div class="section-2" style="background-color: #dfe6e9; width: 30%;">
+      <h3 style="background-color: #74b9ff; padding: 5px; margin: 5px; text-align: center;"> Select Packages</h3>
+      <from action="#">
+        <div style="padding: 5px; margin: 4px;">
+          <label for=""> Choose Your Tour Package</label>
+          <select name="tourOpt" id="tourOpt" style="display: block; margin: 10px 0;">
+              <option value="1"> Package 1</option>
+              <option value="2"> Package 2</option>
+              <option value="3"> Package 3</option>
+            </select>
+        </div>
+      </from>
+      <h3 style="background-color: #74b9ff; padding: 5px; margin: 5px; text-align: center;">Payments</h3>
+      <p style="padding: 5px; margin: 5px;"> Accepted Cards</p>
+      <div class="cards" style="display: flex; columns: row;">
+        <!-- Card 1-->
+        <div class="card1">
+          <img src="https://static.vecteezy.com/system/resources/previews/020/335/998/non_2x/visa-logo-visa-icon-free-free-vector.jpg"width="30px" alt="Visa" style="padding: 5px;">
+        </div>
+        <!-- Card 2-->
+        <div class="card2">
+          <img src="https://c8.alamy.com/comp/2SDPF4M/rotated-to-right-american-express-symbol-finance-logo-2SDPF4M.jpg" width="30px" style="padding: 5px;" alt="Amex">
+        </div>
+        <!-- Card 3-->
+        <div class="card3">
+          <img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-65365,resizemode-75,msid-79823500/industry/banking/finance/paypal-faces-rs-96-lakh-penalty-for-violating-indias-anti-money-laundering-processes.jpg" alt="PayPal" width="30px" style="padding: 5px;">
+        </div>
+        <!-- Card 4-->
+        <div class="card4">
+          <img src="https://1000logos.net/wp-content/uploads/2020/11/Discover-Logo.jpg" alt="Discover" width="30px" style="padding: 5px;">
+        </div>
+      </div>
+      <form action="">
+        <div style="padding: 5px; margin: 5px;">
+          <label> Name On Card</label><br>
+          <input type="text" placeholder="Enter Name" required>
+        </div>
+        <div style="padding: 5px; margin: 5px;">
+          <label> Credit Card Number</label><br>
+          <input type="text" placeholder="1111 2222 3333 4444" required>
+        </div>
+        <div style="padding: 5px; margin: 5px;">
+          <label> Exp Month</label><br>
+          <input type="text" placeholder="September" required>
+        </div>
+        <div class="box">
+           <div class="col-1">
+            <div style="padding: 5px; margin: 5px;">
+              <label> Exp Year</label><br>
+              <input type="year" placeholder="2018" required>
+            </div>
+          </div>
+          <div class="col-2">
+            <div style="padding: 5px; margin: 5px;">
+              <label> CVV</label><br>
+              <input type="text" placeholder="652" required>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="section-3" style="background-color: #dfe6e9;
+    width: 30%;">
+      <div class="box">
+        <div class="col-1">
+          <h3 style="padding: 5px; margin: 5px;"> Cost of Per Member<span></span></h3>
+          <p style="padding:5px; margin: 5px;"><a href="#">Female</a></p>
+          <p style="padding:5px; margin: 5px;"><a href="#">Male</a></p>
+          <p style="padding:5px; margin: 5px;"><a href="#">Kids</a></p>
+          <p style="padding:5px; margin: 5px;"><a href="#">Family (4 Members) Discount</a></p>
+        </div>
+        <div class="col-2">
+          <h3 style="padding: 5px; margin: 5px;"><i class="fa fa-shopping-cart" aria-hidden="true"></i> 4</h3>
+          <p style="padding: 5px; margin: 5px; color: #7f8c8d;"> $5000</p>
+          <p style="padding: 5px; margin: 5px; color: #7f8c8d;"> $5000</p>
+          <p style="padding: 5px; margin: 5px; color: #7f8c8d;"> $4000</p>
+          <p style="padding: 5px; margin: 5px; color: #7f8c8d;"> $16000</p>
+        </div>
+      </div>
+      <hr style="border: 2px solid 37f; width: 90%;">
+      <div class="box">
+        <div class="col-1">
+          <p style="padding: 5px; margin: 5px;">Total</p>
+        </div>
+        <div class="col-2">
+          <p style="padding: 5px; margin: 5px; font-weight: bold;">$30000</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

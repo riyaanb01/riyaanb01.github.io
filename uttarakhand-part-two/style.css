@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif ;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+input [type="text"], input[type="emai/"] {
+    width: 90%;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
