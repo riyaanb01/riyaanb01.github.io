@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap v4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Bootstrap v5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>session_09_forms_and_buttons</title>
+</head>
+
+<body>
+    <h1 class="display-4 text-primary text-center my-4">session_09_forms_and_buttons</h1>
+    <!-- Vertical Form -->
+    <h4 class="text-center my-2">Vertical Form</h4>
+    <div class="container p-3" style="background-color: #fab1a0;">
+        <form action="#">
+            <!-- Email -->
+            <div class="from-group">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" placeholder="Enter Email">>
+                <small>We'll never share your email with anyone else</small>
+            </div>
+            <!-- Password -->
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" placeholder="Enter Password">
+            </div>
+            <!-- Checkbox -->
+            <div class="form-group form-check">
+                <input type="checkbox" name="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check Me out</label>
+            </div>
+            <!-- Button -->
+            <button type="submit" class="btn btn-primary mt-2">Submit</button>
+        </form>
+    </div>
+
+    <!-- Horizontal Form -->
+    <h4 class="text-center my-2">Horizontal Form</h4>
+    <div class="container p-3" style="background-color: #74b9ff;">
+        <form action="#">
+            <!-- email -->
+            <div class="row mb-3">
+                <label for="email" class="col-sm-2 col-form-label" for="Email">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" placeholder="Enter Email">
+                </div>
+            </div>
+            <!-- Password -->
+            <div class="row mb-3">
+                <label for="password" class="col-sm-2 col-form-label" for="Password">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" placeholder="Enter Password">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-outline-dark btn-block mt-2">Submit</button>
+        </form>
+    </div>
+
+    <!-- Inline Form -->
+    <h4 class="text-center my-2">Inline Form</h4>
+    <div class="container p-3" style="background-color: #ffeaa7;">
+        <form action="#">
+            <div class="row">
+                <!-- Name -->
+                <div class="col-sm-6">
+                    <input type="name" class="form-control" placeholder="Enter Your Name">
+                </div>
+                <!-- Email -->
+                <div class="col-sm-6">
+                    <input type="email" class="form-control" placeholder="Enter Your Email">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Form Contorl Size -->
+    <h4 class="text-center my-2">Form Control Size</h4>
+    <div class="container p-3" style="background-color: #55efc4;">
+        <form action="#">
+            <!-- Large -->
+            <div class="input-group input-group-lg mb-3">
+                <span class="input-group-text">Large</span>
+                <input type="text" class="form-control">
+            </div>
+            <!-- Medium -->
+            <div class="input-group input-group-md mb-3">
+                <span class="input-group-text">Default</span>
+                <input type="text" class="form-control">
+            </div>
+            <!-- Small -->
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text">Small</span>
+                <input type="text" class="form-control">
+            </div>
+        </form>
+    </div>
+
+    <!-- Color Picker -->
+     <h4 class="text-center my-2">Color Picker</h4>
+     <div class="container text-center">
+        <form action="#">
+            <input type="color" class="form-control-color">
+        </form>
+     </div>
+
+    <!-- Bootstrap Buttons  -->
+    <h4 class="text-center my-2">Bootstrap Buttons</h4>
+    <div class="container">
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-dark">Dark</button>
+        <button class="btn btn-light">Light</button>
+        <button class="btn btn-link">link</button>
+    </div>
+
+    <!-- Button Tags -->
+    <h4 class="text-center my-2">Button Tags</h4>
+    <div class="container">
+        <a href="#" class="btn-primary" type="submit" target="_blank">Link</a>
+        <input type="submit" value="Submit" class="btn btn-secondary">
+        <input type="reset" value="Reset" class="btn btn-success">
+        <input type="button" value="Submit" class="btn btn-info">
+    </div>
+
+    <!-- Button Outline -->
+   <h4 class="text-center my-2">Button Outline</h4>
+    <div class="container">
+        <button class="btn btn-outline-primary">Primary Outline</button>
+        <button class="btn btn-outline-secondary">Secondary Outline</button>
+        <button class="btn btn-outline-success">Success Outline</button>
+        <button class="btn btn-outline-info">Info Outline</button>
+        <button class="btn btn-outline-warning">Warning Outline</button>
+        <button class="btn btn-outline-danger">Danger Outline</button>
+        <button class="btn btn-outline-dark">Dark Outline</button>
+    </div>
+
+    <!-- Spinner Buttons -->
+    <h4 class="text-center my-2">Soinner Buttons</h4>
+    <div class="conatiner">
+        <div class="row display-flex">
+            <div class="col-sm-3">
+                <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="spinner-grow" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="spinner-border text-info" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="spinner-border spinner-border-sm" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            </div>
+        </div>
+    </div> 
+    
+    <div style="margin-top: 100px;"></div>
+</body>
+
+</html>
